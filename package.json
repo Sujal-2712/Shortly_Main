@@ -29,5 +29,9 @@
     "shortid": "^2.2.17",
     "ua-parser-js": "^2.0.3",
     "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   }
 }
