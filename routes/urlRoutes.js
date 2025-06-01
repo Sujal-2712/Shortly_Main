@@ -48,7 +48,5 @@ router.delete('/delete/:id',
   urlController.deleteUrl
 );
 
-//no auth required for redirect
-router.get('/:shortUrl', (req, res) => urlController.redirectUrl(req, res));
 
 module.exports = router;
