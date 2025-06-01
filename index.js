@@ -42,7 +42,7 @@ try {
 
 try {
   const urlController = require('./controllers/urlController');
-  app.get('/:shortUrl', (req, res) => {
+  app.get('/url/:shortUrl', (req, res) => {
     return urlController.redirectUrl(req, res);
   });
 } catch (err) {
