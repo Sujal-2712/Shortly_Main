@@ -56,10 +56,6 @@ app.use((req, res) => {
 });
 
 // Error handling middleware
-app.use((err, req, res, next) => {
-  logger.error(err.stack);
-  res.status(500).json({ error: 'Internal Server Error' });
-});
 
 // Start server
 const PORT = process.env.PORT || 5000;
