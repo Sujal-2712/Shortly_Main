@@ -49,10 +49,10 @@ try {
 }
 
 
-// app.use(express.static(path.join(__dirname, 'client/dist')));
-// app.use((req, res) => {
-//   res.sendFile(path.join(__dirname, 'client/dist', 'index.html'));
-// });
+app.use(express.static(path.join(__dirname, 'client/dist')));
+app.use((req, res) => {
+  res.sendFile(path.join(__dirname, 'client/dist', 'index.html'));
+});
 
 // Error handling middleware
 app.use((err, req, res, next) => {
