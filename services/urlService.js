@@ -18,7 +18,10 @@ class UrlService {
     }
 
     if (!isUnique) {
+
       throw new Error("Unable to generate unique short URL");
+      throw new Error('Unable to generate unique short URL');
+
     }
 
     return shortUrl;

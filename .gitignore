@@ -17,3 +17,19 @@ Thumbs.db
 .env.local
 .env.*.local
 
+# Build output (React build)
+client/build/
+
+# Package distribution
+*.tgz
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# npm cache
+.npm/
+
+# Temporary files
+*.swp
+*.swo
